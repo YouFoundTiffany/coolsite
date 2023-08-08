@@ -1,0 +1,87 @@
+* {
+    outline: 1px rgb(248, 107, 130) dotted;
+}
+
+:root {
+    --navy: #061130;
+    --blue: #1C4BC4;
+    --white: #F4F6F8;
+    --yellow: #FAFD61;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: var(--navy);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+
+}
+
+body {
+    background-color: var(--navy);
+    color: var(--white);
+    align-items: center;
+}
+
+footer {
+    background-color: var(--white);
+    color: var(--blue);
+    justify-content: space-around;
+
+}
+
+.bodyCard {
+    padding: 45px;
+}
+
+.heroCards {
+    padding: 45px;
+}
+
+
+a {
+    color: var(--white);
+    padding: 15px;
+    text-decoration: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.menuBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuBar-Links {
+    display: flex;
+}
+
+.logo {
+    display: inline-block;
+}
+
+#letsChat {
+    background-color: #1C4BC4;
+    border-radius: 12%;
+}
+
+/* 
+.footerBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.footerBar-Links {
+    display: flex;
+}
