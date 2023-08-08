@@ -7,17 +7,18 @@
     --blue: #1C4BC4;
     --white: #F4F6F8;
     --yellow: #FAFD61;
+    --gray: hsl(240, 1%, 75%);
 }
 
 body {
-    margin: 0;
+    margin: -25;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header {
     width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: var(--navy);
     color: var(--white);
     display: flex;
@@ -39,6 +40,16 @@ footer {
 
 }
 
+.menuBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuBar-Links {
+    display: flex;
+}
+
 .bodyCard {
     padding: 45px;
 }
@@ -58,16 +69,6 @@ a {
 }
 
 .d-flex {
-    display: flex;
-}
-
-.menuBar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.menuBar-Links {
     display: flex;
 }
 
@@ -94,4 +95,25 @@ a {
     display: flex;
     border: 0;
     margin: 0;
+    justify-content: space-evenly;
+}
+
+.footerBar-Links a {
+    color: var(--blue);
+}
+
+.bg-Gray {
+    background-color: var(--gray);
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font-black {
+    color: black;
 }
